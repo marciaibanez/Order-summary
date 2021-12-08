@@ -114,11 +114,8 @@ p {
   font-weight: 900;
   font-size: clamp(0.9rem, 2.5vw, 1rem);
   cursor: pointer;
-}
-
-.buttons-container .confirm-button,
-.buttons-container .cancel-button a {
   transition: all 0.5s ease-in-out;
+  text-align: center;
 }
 
 .buttons-container .confirm-button {
@@ -129,7 +126,7 @@ p {
   opacity: 100%;
 }
 
-.buttons-container .confirm-button a {
+.buttons-container .confirm-button {
   color: var(--white);
   text-decoration: none;
 }
@@ -144,12 +141,12 @@ p {
   background: none;
 }
 
-.buttons-container .cancel-button a {
+.buttons-container .cancel-button {
   color: var(--desaturated-blue);
   text-decoration: none;
 }
 
-.buttons-container .cancel-button a:hover {
+.buttons-container .cancel-button:hover {
   color: var(--dark-blue);
 }
 
